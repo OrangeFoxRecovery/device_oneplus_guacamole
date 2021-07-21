@@ -16,3 +16,10 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_guacamole.mk
+#
+
+COMMON_LUNCH_CHOICES := \
+    omni_avicii-user \
+    omni_avicii-userdebug \
+    omni_avicii-eng
+#
