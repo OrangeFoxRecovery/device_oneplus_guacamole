@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := guacamole
+PRODUCT_RELEASE_NAME := OnePlus 7 Pro
 
 $(call inherit-product, build/target/product/embedded.mk)
 
