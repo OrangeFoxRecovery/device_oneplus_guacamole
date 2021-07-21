@@ -51,5 +51,4 @@
 # and fails if it does not find it.
 /dev/block/bootdevice/by-name/misc                      /misc                  emmc    defaults                                             defaults
 /dev/block/bootdevice/by-name/boot                      /boot                  emmc    defaults                                             defaults
-/dev/block/bootdevice/by-name/recovery                  /recovery              emmc    defaults                                             defaults
 /dev/block/bootdevice/by-name/op2                       /op2                   ext4    noatime,nosuid,nodev,barrier=1,data=ordered          wait,check
