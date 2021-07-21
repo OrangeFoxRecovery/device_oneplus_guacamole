@@ -80,8 +80,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_BUILD_TYPE="Stable-Unofficial"
 
 	# Screen Settings
-	export OF_SCREEN_H=2400
-	export OF_STATUS_H=120
+	export OF_SCREEN_H=2340
 	export OF_STATUS_INDENT_LEFT=48
 	export OF_STATUS_INDENT_RIGHT=48
 	export OF_ALLOW_DISABLE_NAVBAR=0
