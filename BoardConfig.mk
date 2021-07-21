@@ -148,3 +148,9 @@ TARGET_USES_LOGD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_USB_STORAGE := true
 PLATFORM_VERSION := 16.1.0
+
+# Fix Decryption on Some More ROMs
+BOARD_AVB_RECOVERY_ADD_HASH_FOOTER_ARGS += \
+    --prop com.android.build.boot.os_version:$(PLATFORM_VERSION) \
+    --prop com.android.build.boot.security_patch:$(PLATFORM_SECURITY_PATCH)
+#
